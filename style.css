@@ -10,11 +10,22 @@ header {
     justify-content: space-between;
     align-items: center;
     background-color: black;
-    padding: 10px;
+    padding: 5px 35px;
 }
 
 .logo img {
     width: 280px;
     height: 140px;
-    margin-left: 10px;
+    margin-left: 5px;
+}
+
+.nav a {
+    padding-right: 40px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.nav a:hover {
+    color: #D4AF7A;
 }
