@@ -43,21 +43,6 @@ header {
     color: #d4af7a;
 }
 
-button {
-    font-size: 15px;
-    font-weight: bold;
-    padding: 8px 20px;
-    margin-left: 15px;
-    border-radius: 30px;
-    background-color: white;
-    color: black;
-}
-
-button:hover {
-    background-color: navy;
-    color: white;
-}
-
 .socials {
     display: flex;
     justify-content: center;
@@ -92,14 +77,31 @@ button:hover {
 .hero h2 {
     font-weight: bolder;
     font-size: 50px;
+    margin-top: 75px;
 }
 
 .hero p {
     font-weight: bold;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .hero small {
     font-weight: bolder;
-    font-size: 20px;
+    font-size: 15px;
+}
+
+button {
+    font-size: 15px;
+    font-weight: bold;
+    padding: 8px 20px;
+    margin-left: 15px;
+    border-radius: 30px;
+    background-color: white;
+    color: black;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: navy;
+    color: white;
 }
