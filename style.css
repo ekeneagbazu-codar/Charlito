@@ -44,7 +44,7 @@ header {
 button {
     font-size: 15px;
     font-weight: bold;
-    padding: 10px 25px;
+    padding: 8px 20px;
     margin-left: 15px;
     border-radius: 30px;
     background-color: white;
@@ -56,12 +56,15 @@ button:hover {
     color: white;
 }
 
-.socials img {
-    width: 50px;
-    margin: 5px;
-    padding: 5px;
+.socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-small {
-    color: white;
+.socials img {
+    width: 50px;
+     margin: 8px;
+    padding: 8px; 
 }
+
