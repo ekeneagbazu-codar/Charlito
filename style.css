@@ -66,8 +66,8 @@ button:hover {
 
 .socials img {
     width: 50px;
-     margin: 8px;
-    padding: 8px; 
+    margin: 8px;
+    padding: 8px;
 }
 
 /* HERO SECTION */
@@ -77,6 +77,9 @@ button:hover {
     width: 100%;
     height: calc(100vh - 0px);
     /* height: 100vh; */
+
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
 
     display: flex;
     flex-direction: column;
@@ -92,8 +95,11 @@ button:hover {
 }
 
 .hero p {
-    font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
-    font-style: oblique;
     font-size: 30px;
+}
+
+.hero small {
+    font-weight: bolder;
+    font-size: 20px;
 }
