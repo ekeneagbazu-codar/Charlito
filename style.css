@@ -7,6 +7,7 @@
 
 body {
     scroll-behavior: smooth;
+    transition: all 0.5s ease;
 }
 
 /* HEADER SECTION */
@@ -57,7 +58,14 @@ header {
 
 /* HERO SECTION */
 .hero {
-    background-color: navy;
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.6)),
+        url("/images/jollof.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
     color: white;
     width: 100%;
     height: calc(100vh - 0px);
