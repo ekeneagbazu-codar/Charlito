@@ -61,3 +61,7 @@ button:hover {
     margin: 5px;
     padding: 5px;
 }
+
+small {
+    color: white;
+}
