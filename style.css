@@ -9,6 +9,7 @@ body {
     scroll-behavior: smooth;
 }
 
+/* HEADER SECTION */
 header {
     display: flex;
     justify-content: space-between;
@@ -70,3 +71,9 @@ button:hover {
     padding: 8px; 
 }
 
+/* HERO SECTION */
+.hero {
+    background-color: navy;
+    height: 100vh;
+    width: 100%;
+}
