@@ -114,3 +114,107 @@ button:hover {
     background-color: navy;
     color: white;
 }
+
+
+/* ABOUT US SECTION */
+/* Charlito Foods Brand Colors & Global Styles */
+:root {
+  --primary-color: #d9531e; /* Warm Spice Orange */
+  --secondary-color: #8b0000; /* Rich Culinary Red */
+  --text-dark: #2c221e; /* Deep Cocoa Dark Text */
+  --bg-light: #fffcf8; /* Soft Warm Background */
+  --card-bg: #ffffff;
+  --shadow-color: rgba(0, 0, 0, 0.08);
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--bg-light);
+  color: var(--text-dark);
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+/* About Section Layout & Central Alignment */
+.about-section {
+  padding: 60px 20px;
+  text-align: center; /* Centralizes all headings and body copy */
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* Typography */
+.about-section h2 {
+  font-size: 2.5rem;
+  color: var(--secondary-color);
+  margin-bottom: 5px;
+  letter-spacing: 0.5px;
+}
+
+.tagline {
+  font-size: 1.2rem;
+  font-style: italic;
+  color: var(--primary-color);
+  margin-bottom: 35px;
+  font-weight: 600;
+}
+
+.about-text p {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+  max-width: 780px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Value Cards Grid (Centralized Layout) */
+.brand-values {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 45px;
+  flex-wrap: wrap;
+}
+
+.value-card {
+  background: var(--card-bg);
+  padding: 25px;
+  border-radius: 12px;
+  border-top: 4px solid var(--primary-color);
+  box-shadow: 0 4px 15px var(--shadow-color);
+  flex: 1 1 250px;
+  max-width: 280px;
+  transition: transform 0.3s ease;
+}
+
+.value-card:hover {
+  transform: translateY(-5px);
+}
+
+.value-card h3 {
+  font-size: 1.3rem;
+  color: var(--secondary-color);
+  margin-bottom: 10px;
+}
+
+.value-card p {
+  font-size: 0.95rem;
+  color: #555;
+  margin: 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .about-section h2 {
+    font-size: 2rem;
+  }
+  .brand-values {
+    flex-direction: column;
+    align-items: center;
+  }
+}
