@@ -208,6 +208,11 @@ body {
   margin: 0;
 }
 
+.about-button {
+    margin-left: 600px;
+    margin-bottom: 50px;
+}
+
 /* Responsive adjustments */
 @media (max-width: 768px) {
   .about-section h2 {
