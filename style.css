@@ -16,7 +16,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 2px 50px;
-    position: fixed;
+    /* position: fixed; */
     width: 100%;
     background-image:
         linear-gradient(rgba(0, 0, 0, 0.7)),
